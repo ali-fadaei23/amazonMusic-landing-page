@@ -1,0 +1,255 @@
+/* ####################################### Add Fonts ####################################### */
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: local("Amazon Ember"),
+    url(../Assets/Fonts/AmazonEmber_Bd.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Antonio";
+  src: local("Antonio"),
+    url(../Assets/Fonts/Antonio-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Antonio Light";
+  src: local("Antonio Light"),
+    url(../Assets/Fonts/Antonio-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Fjalla One";
+  src: local("Fjalla One"),
+    url(../Assets/Fonts/FjallaOne-Regular.ttf) format("truetype");
+}
+/* ################################# Main Style ##################################### */
+
+@media only screen and (min-width: 1000px) {
+  .header-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 130px;
+  }
+
+  .box-content {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: logo 2000ms;
+  }
+
+  @keyframes logo {
+    0% {
+      opacity: 0;
+
+      transform: translateY(-70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateY(0);
+    }
+  }
+
+  .box-text-1 {
+    font-family: Fjalla One;
+  }
+
+  .text-1 {
+    font-size: 50px;
+  }
+
+  @keyframes box-text-1 {
+    0% {
+      opacity: 0;
+
+      transform: translateX(70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateX(0);
+    }
+  }
+  .box-text-2 {
+    font-family: Antonio Light;
+    margin-top: 60px;
+  }
+
+  .text-2 {
+    font-size: 21px;
+  }
+
+  @keyframes box-text-2 {
+    0% {
+      opacity: 0;
+
+      transform: translateX(70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  .header-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 72px;
+  }
+
+  .box-content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: logo 2000ms;
+  }
+  @keyframes logo {
+    0% {
+      opacity: 0;
+
+      transform: translateY(-70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateY(0);
+    }
+  }
+
+  .box-text-1 {
+    font-family: Antonio;
+  }
+
+  .text-1 {
+    font-size: 40px;
+  }
+
+  @keyframes box-text-1 {
+    0% {
+      opacity: 0;
+
+      transform: translateX(70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateX(0);
+    }
+  }
+  .box-text-2 {
+    font-family: Antonio Light;
+    margin-top: 25px;
+  }
+
+  .text-2 {
+    font-size: 16px;
+  }
+
+  @keyframes box-text-2 {
+    0% {
+      opacity: 0;
+
+      transform: translateX(70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  .header-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 30px;
+  }
+
+  .box-content {
+    padding: 50px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: logo 2000ms;
+  }
+  @keyframes logo {
+    0% {
+      opacity: 0;
+
+      transform: translateY(-70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateY(0);
+    }
+  }
+
+  .box-text-1 {
+    font-family: Antonio;
+  }
+
+  .text-1 {
+    animation: box-text-1 1800ms;
+    font-size: 37px;
+  }
+
+  .text-2 {
+    font-size: 17px;
+  }
+
+  @keyframes box-text-1 {
+    0% {
+      opacity: 0;
+
+      transform: translateX(70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateX(0);
+    }
+  }
+  .box-text-2 {
+    font-family: Antonio Light;
+    margin-top: 25px;
+  }
+
+  .text-2 {
+    animation: box-text-2 2300ms;
+  }
+
+  @keyframes box-text-2 {
+    0% {
+      opacity: 0;
+
+      transform: translateX(70px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateX(0);
+    }
+  }
+}

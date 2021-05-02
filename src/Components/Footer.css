@@ -1,0 +1,124 @@
+/* ################################# Add Fonts ################################## */
+
+@font-face {
+  font-family: "AvenirNext LT Pro Regular";
+  src: local("AvenirNext LT Pro Regular"),
+    url(../Assets/Fonts/AvenirNextLTPro-It.otf) format("truetype");
+}
+
+/* ################################# Main Style ################################## */
+
+.footer-container {
+  max-width: 100%;
+  color: #303c42;
+  font-family: Amazon Ember;
+  text-align: center;
+  font-size: 15px;
+}
+
+.ul-footer {
+  text-align: left;
+  list-style: none;
+  font-family: Amazon Ember;
+  padding: 0;
+  line-height: 2.3;
+  letter-spacing: 1px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ul li {
+  padding: 10px;
+}
+
+ul li a {
+  border-bottom: 2px solid transparent;
+  transition: all 300ms ease-in-out;
+  color: #9ca3b0;
+}
+
+ul li a:hover {
+  border-bottom: 2px solid #e2a300;
+  color: #4f4785;
+}
+
+.box-download {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn-get-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-animation {
+  transition: transform 0.2s;
+}
+
+.download-animation:hover {
+  transform: scale(1.5);
+}
+
+.play-store {
+  margin-bottom: 15px;
+}
+
+.box-footer-link {
+  list-style: none;
+}
+
+.box-text-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+}
+
+.box-footer {
+  padding: 59px;
+}
+
+.box-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box-social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.design-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: AvenirNext LT Pro Regular;
+  margin-top: 25px;
+}
+
+.text-design-by {
+  padding: 3px;
+}
+
+.margin-element {
+  margin-right: 15px;
+}
+
+.animation {
+  transition: transform 0.2s;
+}
+.animation:hover {
+  transform: scale(1.5);
+
+  font-family: Antonio;
+  color: #000;
+}

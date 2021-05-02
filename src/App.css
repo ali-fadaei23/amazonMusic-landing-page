@@ -1,0 +1,96 @@
+/* ################################# Add Fonts ################################## */
+
+@font-face {
+  font-family: "Antonio";
+  src: local("Antonio"), url(./Assets/Fonts/Antonio-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Antonio Light";
+  src: local("Antonio Light"),
+    url(./Assets/Fonts/Antonio-Light.ttf) format("truetype");
+}
+
+/* ################################# Default Style ################################## */
+html,
+body {
+  min-height: 100%;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* ################################# Main Style ################################## */
+@media only screen and (min-width: 1000px) {
+  .header {
+    background: url(./Assets/bg-header-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .get-app {
+    padding: 30px;
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    background: url(./Assets/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  .header {
+    background: url(./Assets/bg-header-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .get-app {
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    background: url(./Assets/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  .header {
+    background: url(./Assets/bg-header-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .get-app {
+    padding: 20px;
+    margin-bottom: 510px;
+  }
+
+  .footer {
+    background: url(./Assets/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+  }
+}

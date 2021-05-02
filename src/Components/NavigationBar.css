@@ -1,0 +1,253 @@
+/* ################################## Main Style ###################################### */
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+/* ################################## Responsive ###################################### */
+
+@media only screen and (min-width: 1000px) {
+  .navbar-container {
+    max-width: 100%;
+    background: rgb(33, 33, 33);
+    background: linear-gradient(
+      111deg,
+      rgba(33, 33, 33, 0.6530987394957983) 0%,
+      rgba(48, 47, 47, 0.44861694677871145) 32%
+    );
+  }
+
+  .col-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .btn-more {
+    display: none;
+  }
+
+  @keyframes animation-nav {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .align-btns-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Amazon Ember;
+    font-size: 18px;
+  }
+
+  .box-home {
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease-in-out;
+    width: 1%;
+  }
+
+  .box-home:hover {
+    border-bottom: 2px solid #e2a300;
+    width: 100%;
+  }
+
+  .box-download-app {
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease-in-out;
+    width: 0%;
+  }
+
+  .box-download-app:hover {
+    border-bottom: 2px solid #e2a300;
+    width: 100%;
+  }
+
+  .box-btn-home {
+    margin-left: 40px;
+  }
+
+  .box-btn-download {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  .navbar-container {
+    max-width: 100%;
+    background: rgb(33, 33, 33);
+    background: linear-gradient(
+      111deg,
+      rgba(33, 33, 33, 0.6530987394957983) 0%,
+      rgba(48, 47, 47, 0.44861694677871145) 32%
+    );
+  }
+
+  .btn-more {
+    display: none;
+  }
+
+  .col-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+  @keyframes animation-nav {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .box-home {
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease-in-out;
+    width: 1%;
+  }
+
+  .align-btns-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Amazon Ember;
+    font-size: 18px;
+  }
+
+  .box-home:hover {
+    border-bottom: 2px solid #e2a300;
+    width: 100%;
+  }
+
+  .box-download-app {
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease-in-out;
+    width: 0%;
+  }
+
+  .box-download-app:hover {
+    border-bottom: 2px solid #e2a300;
+    width: 100%;
+  }
+
+  .box-btn-home {
+    margin-left: 20px;
+  }
+
+  .box-btn-download {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  .navbar-container {
+    max-width: 100%;
+    background: rgb(33, 33, 33);
+    background: linear-gradient(
+      270deg,
+      rgba(33, 33, 33, 0.33) 0%,
+      rgba(48, 48, 48, 0.8095238095238095) 90%
+    );
+  }
+
+  .col-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .hide-btn-home {
+    display: none;
+  }
+
+  .hide-btn-download {
+    display: none;
+  }
+
+  .display-col-nav {
+    display: block;
+  }
+
+  .box-btns-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Amazon Ember;
+    font-size: 18px;
+  }
+
+  .btn-more {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 19px;
+    padding-top: 15px;
+  }
+
+  .img-more {
+    width: 40px;
+    filter: brightness(0) invert(1);
+  }
+
+  @keyframes animation-nav {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .box-home {
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease-in-out;
+    width: 1%;
+  }
+
+  .box-home:hover {
+    border-bottom: 2px solid #e2a300;
+    width: 100%;
+  }
+
+  .box-download-app {
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease-in-out;
+    width: 0%;
+  }
+
+  .box-download-app:hover {
+    border-bottom: 2px solid #e2a300;
+    width: 100%;
+  }
+
+  .box-btn-home {
+    margin-left: 20px;
+  }
+
+  .box-btn-download {
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+}
