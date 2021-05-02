@@ -1,4 +1,4 @@
-/* ####################################### Add Fonts ####################################### */
+/* ################################### Add Fonts ################################# */
 
 @font-face {
   font-family: "Amazon Ember Display Heavy";
@@ -6,40 +6,117 @@
     url(../Assets/Fonts/AmazonEmberDisplay_He.ttf) format("truetype");
 }
 
-/* ####################################### Main Style ####################################### */
+/* ##################################### Main Style ################################## */
 
-.other-version-container {
-  max-width: 100%;
-  background: url(../Assets/bg-versions-app-1.jpg);
+@media only screen and (min-width: 1000px) {
+  .other-version-container {
+    max-width: 100%;
+    background: url(../Assets/bg-versions-app-1.jpg);
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
-  font-family: Amazon Ember Display Heavy;
-  font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    font-family: Fjalla One;
+    font-size: 24px;
+  }
+
+  .padding-other-version {
+    padding: 20px;
+  }
+
+  .box-v-prime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-v-free {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-v-hd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.padding-other-version {
-  padding: 20px;
-}
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  .other-version-container {
+    max-width: 100%;
+    background: url(../Assets/bg-versions-app-1.jpg);
 
-.box-v-prime {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    font-family: Fjalla One;
+    font-size: 24px;
+  }
 
-.box-v-free {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  .padding-other-version {
+    padding: 20px;
+  }
 
-.box-v-hd {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  .box-v-prime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-v-free {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-v-hd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  .other-version-container {
+    max-width: 100%;
+    background: url(../Assets/bg-versions-app-1.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    font-family: Fjalla One;
+    font-size: 24px;
+  }
+
+  .padding-other-version {
+    padding: 20px;
+  }
+
+  .box-v-prime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-v-free {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-v-hd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
