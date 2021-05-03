@@ -1,17 +1,17 @@
-/* #################################### Default Style #################################### */
+/* ############################## Default Style ############################## */
 .get-app-container {
   max-width: 100%;
   padding: 5px;
 }
 
-/* #################################### Main Style #################################### */
-
+/* ################################# Style ################################## */
 @media only screen and (min-width: 1000px) {
   .col-get-app {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
+
   .box-get-app {
     display: flex;
     flex-direction: column;
@@ -52,6 +52,7 @@
     color: #adadad;
     align-items: center;
   }
+
   @keyframes icon-app {
     0% {
       opacity: 0;
@@ -197,6 +198,7 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
   .box-get-app {
     display: flex;
     flex-direction: column;
@@ -236,6 +238,7 @@
     color: #adadad;
     align-items: center;
   }
+
   @keyframes icon-app {
     0% {
       opacity: 0;
@@ -389,6 +392,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .box-get-app {
     display: flex;
     flex-direction: column;
@@ -429,6 +433,7 @@
     color: #adadad;
     align-items: center;
   }
+
   @keyframes icon-app {
     0% {
       opacity: 0;

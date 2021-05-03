@@ -1,13 +1,11 @@
-/* ################################# Add Fonts ################################## */
-
+/* ################################# Fonts ################################## */
 @font-face {
   font-family: "AvenirNext LT Pro Regular";
   src: local("AvenirNext LT Pro Regular"),
     url(../Assets/Fonts/AvenirNextLTPro-It.otf) format("truetype");
 }
 
-/* ################################# Main Style ################################## */
-
+/* ################################# Style ################################## */
 @media only screen and (min-width: 1000px) {
   .footer-container {
     max-width: 100%;
@@ -29,6 +27,7 @@
     flex-direction: row;
     align-items: center;
   }
+
   ul li {
     padding: 10px;
   }
@@ -94,6 +93,7 @@
   .animation {
     transition: transform 0.2s;
   }
+
   .animation:hover {
     transform: scale(1.5);
 
@@ -123,6 +123,7 @@
     flex-direction: row;
     align-items: center;
   }
+
   ul li {
     padding: 10px;
   }
@@ -188,6 +189,7 @@
   .animation {
     transition: transform 0.2s;
   }
+
   .animation:hover {
     transform: scale(1.5);
 
@@ -216,6 +218,7 @@
     flex-direction: row;
     align-items: center;
   }
+
   ul li {
     padding: 10px;
   }
@@ -282,6 +285,7 @@
   .animation {
     transition: transform 0.2s;
   }
+
   .animation:hover {
     transform: scale(1.5);
 

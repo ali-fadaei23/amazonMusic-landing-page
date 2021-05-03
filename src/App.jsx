@@ -1,8 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { Component } from "react";
 
-// Add Assets
-
 // Add CSS
 import "./App.css";
 

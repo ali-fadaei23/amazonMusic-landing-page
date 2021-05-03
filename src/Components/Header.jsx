@@ -6,7 +6,8 @@ import "./Header.css";
 import LogoPrime from "../Assets/amazon-prime-logo.png";
 
 const Header = (props) => {
-  const [hideElement, setHideElement] = useState(false);
+const [hideElement, setHideElement] = useState(false);
+
   useEffect(() => {
     const HideElement = function () {
       if (window.innerWidth < 700) {

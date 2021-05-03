@@ -1,18 +1,15 @@
-/* ################################### Add Fonts ################################# */
-
+/* ################################# Fonts ################################## */
 @font-face {
   font-family: "Amazon Ember Display Heavy";
   src: local("Amazon Ember Display Heavy"),
     url(../Assets/Fonts/AmazonEmberDisplay_He.ttf) format("truetype");
 }
 
-/* ##################################### Main Style ################################## */
-
+/* ################################# Style ################################## */
 @media only screen and (min-width: 1000px) {
   .other-version-container {
     max-width: 100%;
     background: url(../Assets/bg-versions-app-1.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
@@ -50,7 +47,6 @@
   .other-version-container {
     max-width: 100%;
     background: url(../Assets/bg-versions-app-1.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
@@ -83,11 +79,11 @@
     justify-content: center;
   }
 }
+
 @media only screen and (min-width: 500px) and (max-width: 700px) {
   .other-version-container {
     max-width: 100%;
     background: url(../Assets/bg-versions-app-1.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;

@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 
 // Add Assets
-
 import InstagramIcon from "../Assets/instagram.png";
 import WhatsAppIcon from "../Assets/whats-app.png";
 import YoutubeIcon from "../Assets/youtube.png";

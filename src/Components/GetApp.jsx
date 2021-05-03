@@ -13,6 +13,7 @@ import Shape from "../Assets/shape.png";
 const GetApp = (props) => {
   const [showAnimation, setShowAnimation] = useState(false);
   const [showElement, setshowElement] = useState(false);
+
   useEffect(() => {
     const ShowHide = function () {
       if (window.innerWidth < 700) {
@@ -37,6 +38,7 @@ const GetApp = (props) => {
     window.addEventListener("scroll", ShowAnimationStart);
     return () => window.removeEventListener("scroll", ShowAnimationStart);
   }, []);
+
   return (
     <Container className="get-app-container" id="download-app-container">
       <Row>

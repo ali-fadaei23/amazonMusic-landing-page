@@ -1,5 +1,4 @@
-/* ####################################### Add Fonts ####################################### */
-
+/* ################################# Fonts ################################## */
 @font-face {
   font-family: "Amazon Ember";
   src: local("Amazon Ember"),
@@ -23,8 +22,8 @@
   src: local("Fjalla One"),
     url(../Assets/Fonts/FjallaOne-Regular.ttf) format("truetype");
 }
-/* ################################# Main Style ##################################### */
 
+/* ################################# Style ################################## */
 @media only screen and (min-width: 1000px) {
   .header-container {
     max-width: 100%;

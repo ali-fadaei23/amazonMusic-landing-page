@@ -1,5 +1,4 @@
-/* ################################# Add Fonts ################################## */
-
+/* ################################# Fonts ################################## */
 @font-face {
   font-family: "Antonio";
   src: local("Antonio"), url(./Assets/Fonts/Antonio-Bold.ttf) format("truetype");
@@ -11,7 +10,7 @@
     url(./Assets/Fonts/Antonio-Light.ttf) format("truetype");
 }
 
-/* ################################# Default Style ################################## */
+/* ############################### Default Style ############################### */
 html,
 body {
   min-height: 100%;
@@ -28,7 +27,7 @@ body {
   font-family: sans-serif;
 }
 
-/* ################################# Main Style ################################## */
+/* ################################# Style ################################## */
 @media only screen and (min-width: 1000px) {
   .header {
     background: url(./Assets/bg-header-1.jpg);
