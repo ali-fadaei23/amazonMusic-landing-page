@@ -49,9 +49,10 @@ const GetApp = (props) => {
               style={
                 showAnimation
                   ? {
-                      animation: "text 1000ms",
+                      visibility: "visible",
+                      animation: "text 900ms",
                     }
-                  : null
+                  : { visibility: "hidden" }
               }
             >
               Available for your
@@ -61,7 +62,11 @@ const GetApp = (props) => {
           <div className="box-get-app">
             <div
               className="icon-app"
-              style={showAnimation ? { animation: "icon-app 1800ms" } : null}
+              style={
+                showAnimation
+                  ? { visibility: "visible", animation: "icon-app 1000ms" }
+                  : { visibility: "hidden" }
+              }
             >
               <img src={IconApp} width="110" />
               <span style={{ width: "400px", marginTop: "25px" }}>
@@ -71,7 +76,11 @@ const GetApp = (props) => {
             </div>
             <div
               className="btn-get-app"
-              style={showAnimation ? { animation: "get-app 2300ms" } : null}
+              style={
+                showAnimation
+                  ? { visibility: "visible", animation: "get-app 1900ms" }
+                  : { visibility: "hidden" }
+              }
             >
               <div>
                 <a href="#" className="play-store-d">
@@ -103,19 +112,31 @@ const GetApp = (props) => {
           <div className="box-phone">
             <div
               className="phone-1"
-              style={showAnimation ? { animation: "phone-1 2200ms" } : null}
+              style={
+                showAnimation
+                  ? { visibility: "visible", animation: "phone-1 1700ms" }
+                  : { visibility: "hidden" }
+              }
             >
               <img className="img-phone-1" src={Phone1} />
             </div>
             <div
               className="phone-2"
-              style={showAnimation ? { animation: "phone-2 2500ms" } : null}
+              style={
+                showAnimation
+                  ? { visibility: "visible", animation: "phone-2 2500ms" }
+                  : { visibility: "hidden" }
+              }
             >
               <img className="img-phone-2" src={Phone2} />
             </div>
             <div
               className="shape"
-              style={showAnimation ? { animation: "shape 1000ms" } : null}
+              style={
+                showAnimation
+                  ? { visibility: "visible", animation: "shape 1100ms" }
+                  : { visibility: "hidden" }
+              }
             >
               <img className="img-shape" src={Shape} />
             </div>
