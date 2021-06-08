@@ -32,8 +32,7 @@ body {
   .header {
     background: url(./Assets/bg-header-1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: top;
   }
 
   .get-app {
