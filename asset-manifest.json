@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/amazonMusic-landing-page/static/css/main.47cd8236.chunk.css",
+    "main.js": "/amazonMusic-landing-page/static/js/main.9fa8a371.chunk.js",
+    "main.js.map": "/amazonMusic-landing-page/static/js/main.9fa8a371.chunk.js.map",
+    "runtime-main.js": "/amazonMusic-landing-page/static/js/runtime-main.8a958497.js",
+    "runtime-main.js.map": "/amazonMusic-landing-page/static/js/runtime-main.8a958497.js.map",
+    "static/css/2.150d169a.chunk.css": "/amazonMusic-landing-page/static/css/2.150d169a.chunk.css",
+    "static/js/2.efab7d2b.chunk.js": "/amazonMusic-landing-page/static/js/2.efab7d2b.chunk.js",
+    "static/js/2.efab7d2b.chunk.js.map": "/amazonMusic-landing-page/static/js/2.efab7d2b.chunk.js.map",
+    "static/js/3.4fd7f74e.chunk.js": "/amazonMusic-landing-page/static/js/3.4fd7f74e.chunk.js",
+    "static/js/3.4fd7f74e.chunk.js.map": "/amazonMusic-landing-page/static/js/3.4fd7f74e.chunk.js.map",
+    "index.html": "/amazonMusic-landing-page/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/amazonMusic-landing-page/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.47cd8236.chunk.css.map": "/amazonMusic-landing-page/static/css/main.47cd8236.chunk.css.map",
+    "static/js/2.efab7d2b.chunk.js.LICENSE.txt": "/amazonMusic-landing-page/static/js/2.efab7d2b.chunk.js.LICENSE.txt",
+    "static/media/OtherVersion.css": "/amazonMusic-landing-page/static/media/bg-versions-app-1.197c3967.jpg",
+    "static/media/Header.css": "/amazonMusic-landing-page/static/media/FjallaOne-Regular.c674a102.ttf",
+    "static/media/Footer.css": "/amazonMusic-landing-page/static/media/AvenirNextLTPro-It.3e062c6c.otf",
+    "static/media/amazon-music-hd.34e3cef2.png": "/amazonMusic-landing-page/static/media/amazon-music-hd.34e3cef2.png",
+    "static/media/amazon-prime-logo.9ffbaa5a.png": "/amazonMusic-landing-page/static/media/amazon-prime-logo.9ffbaa5a.png",
+    "static/media/App.css": "/amazonMusic-landing-page/static/media/bg-header-1.95d900d4.jpg",
+    "static/media/download-app-phone.8c9461d2.png": "/amazonMusic-landing-page/static/media/download-app-phone.8c9461d2.png",
+    "static/media/download-app.31cbd683.png": "/amazonMusic-landing-page/static/media/download-app.31cbd683.png",
+    "static/media/icon-app-store.b7f49ce4.svg": "/amazonMusic-landing-page/static/media/icon-app-store.b7f49ce4.svg",
+    "static/media/icon-app.114c9761.png": "/amazonMusic-landing-page/static/media/icon-app.114c9761.png",
+    "static/media/icon-play-store.00783093.svg": "/amazonMusic-landing-page/static/media/icon-play-store.00783093.svg",
+    "static/media/instagram.54bfe427.png": "/amazonMusic-landing-page/static/media/instagram.54bfe427.png",
+    "static/media/linkedin.b8fe2800.png": "/amazonMusic-landing-page/static/media/linkedin.b8fe2800.png",
+    "static/media/shape.8ce14cb7.png": "/amazonMusic-landing-page/static/media/shape.8ce14cb7.png",
+    "static/media/twitter.44f1c25c.png": "/amazonMusic-landing-page/static/media/twitter.44f1c25c.png",
+    "static/media/whats-app.2d13e672.png": "/amazonMusic-landing-page/static/media/whats-app.2d13e672.png",
+    "static/media/youtube.3ae89900.png": "/amazonMusic-landing-page/static/media/youtube.3ae89900.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a958497.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.efab7d2b.chunk.js",
+    "static/css/main.47cd8236.chunk.css",
+    "static/js/main.9fa8a371.chunk.js"
+  ]
+}
