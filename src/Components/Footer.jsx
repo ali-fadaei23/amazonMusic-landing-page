@@ -14,9 +14,9 @@ const Footer = (props) => {
     <Container className="footer-container">
       <div
         style={{
-          marginBottom: "20px",
+          marginBottom: "1em",
           alignItems: "flex-start",
-          marginTop: "20px",
+          marginTop: "1.2em",
         }}
       >
         <Row style={{ margin: "auto" }}>
@@ -28,7 +28,7 @@ const Footer = (props) => {
             }}
           >
             <div className="box-text-download">
-              <h1 style={{ fontSize: "30px", marginBottom: "30px" }}>Pages</h1>
+              <h1 style={{ fontSize: "2em", marginBottom: "0.8em" }}>Pages</h1>
             </div>
             <div className="box-download">
               <div className="box-footer-link">

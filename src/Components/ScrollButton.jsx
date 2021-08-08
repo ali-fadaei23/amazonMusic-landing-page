@@ -42,7 +42,7 @@ const ScrollButton = (props) => {
       onClick={scrollToTop}
       style={{ visibility: visible ? "visible" : "hidden" }}
     >
-      <img src={BackToTop} width="90" />
+      <img src={BackToTop} width="90" style={{width: "5em"}} />
     </button>
   );
 };
