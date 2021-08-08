@@ -1,7 +1,9 @@
 /* ############################## Default Style ############################## */
 .get-app-container {
   max-width: 100%;
-  padding: 5px;
+  padding: 0.5em;
+  padding-left: 0;
+  height: 35em;
 }
 
 /* ################################# Style ################################## */
@@ -10,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    height: 100%;
   }
 
   .box-get-app {
@@ -22,13 +25,13 @@
   .box-text {
     color: #303c42;
     font-family: Antonio;
-    padding: 15px;
+    padding: 1em;
     text-align: left;
   }
 
   .text {
-    font-size: 45px;
-    margin-bottom: 5px;
+    position: relative;
+    font-size: 3em;
   }
 
   @keyframes text {
@@ -46,9 +49,9 @@
     font-family: nunito;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 35px;
+    padding: 0.3em 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
     color: #adadad;
     align-items: center;
   }
@@ -77,34 +80,35 @@
 
   .app-store-d {
     color: #303c42;
-    padding: 8px;
+    padding: 0.4em;
     border: 2px solid #303c42;
     font-family: Antonio;
-    font-size: 20px;
-    border-radius: 47px;
+    font-size: 1.2em;
+    border-radius: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 250px;
+    width: 10em;
+    margin-bottom: 0.8em;
     transition: all 0.5s;
   }
 
   .play-store-d {
     color: #303c42;
-    padding: 8px;
+    padding: 0.4em;
     border: 2px solid #303c42;
     font-family: Antonio;
-    font-size: 20px;
-    border-radius: 47px;
+    font-size: 1.2em;
+    border-radius: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 250px;
-    margin-bottom: 15px;
+    width: 10em;
+    margin-bottom: 0.8em;
     transition: all 0.5s;
   }
 
@@ -123,16 +127,18 @@
   }
 
   .shape {
-    position: absolute;
-    top: 56px;
-    left: -59px;
+    position: relative;
+    top: -60em;
+    left: -3.3em;
     right: 0;
     bottom: 0;
     z-index: -1;
+    width: 100%;
   }
 
   .img-shape {
-    width: 490px;
+    width: 28em;
+    height: auto;
   }
 
   @keyframes shape {
@@ -146,15 +152,20 @@
     }
   }
 
+  .box-phone {
+    height: 100%;
+  }
+
   .phone-1 {
-    position: absolute;
-    right: 150px;
-    left: 0;
-    top: 35px;
+    position: relative;
+    right: 5em;
+    top: 2.5em;
+    width: 100%;
   }
 
   .img-phone-1 {
-    width: 240px;
+    width: 17em;
+    height: auto;
   }
 
   @keyframes phone-1 {
@@ -169,15 +180,15 @@
   }
 
   .phone-2 {
-    position: absolute;
-    top: 77px;
-    left: -5px;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    bottom: 28.3em;
+    left: 0;
+    width: 100%;
   }
 
   .img-phone-2 {
-    width: 240px;
+    width: 17em;
+    height: auto;
   }
 
   @keyframes phone-2 {

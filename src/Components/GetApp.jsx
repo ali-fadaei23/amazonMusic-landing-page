@@ -69,7 +69,7 @@ const GetApp = (props) => {
               }
             >
               <img src={IconApp} width="110" />
-              <span style={{ width: "400px", marginTop: "25px" }}>
+              <span style={{ width: "80%", marginTop: "1.2em" }}>
                 Amazon Music is a music streaming platform and online music
                 store operated by Amazon
               </span>

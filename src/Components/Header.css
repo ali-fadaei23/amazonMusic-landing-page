@@ -27,12 +27,14 @@
 @media only screen and (min-width: 1000px) {
   .header-container {
     max-width: 100%;
+    position: relative;
     margin: 0;
-    padding: 130px;
+    padding: 7em 0;
   }
 
   .box-content {
-    padding: 45px;
+    position: relative;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +61,7 @@
   }
 
   .text-1 {
-    font-size: 50px;
+    font-size: 2.5em;
   }
 
   @keyframes box-text-1 {
@@ -77,11 +79,11 @@
   }
   .box-text-2 {
     font-family: Antonio Light;
-    margin-top: 60px;
+    margin-top: 1em;
   }
 
   .text-2 {
-    font-size: 21px;
+    font-size: 0.94em;
   }
 
   @keyframes box-text-2 {
